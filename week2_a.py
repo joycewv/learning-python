@@ -28,7 +28,7 @@ def calculate_subtotal(order):
     sum = 0
     for i in order :
         sum+=i["price"]
-    return sum
+    return float(sum)
 
     raise NotImplementedError()
 
